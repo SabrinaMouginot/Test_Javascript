@@ -1,19 +1,18 @@
+document.write("<button>Click here</button>");
 document.write("<br></br>");
-
 document.write("Bonjour d'un autre fichier JS!");
-
 //Ceci est un commentaire sur une seule ligne
 /*C'est un commentaire
 sur plusieurs lignes*/
 document.write("</br>");
+document.write("LA BASE");
+document.write("<br></br>");
 
-var X = 5;                                                                   // X
+var X = 5;                                                                   
 document.write(X);
-
 document.write("<br>&nbsp;</br>");
 
 document.write(" J'UTILISE IF ELSE.");
-
 document.write("</br>");
 
 var num = 55;
@@ -28,11 +27,9 @@ if(num <= 6){
 }else{
     document.write(" num n'existe pas.");
 }
-
 document.write("<br>&nbsp;</br>");
 
 document.write(" J'UTILISE SWITCH CASE. ");     
-
 document.write("</br>");
 
 switch(num){
@@ -52,11 +49,13 @@ switch(num){
         document.write(" Faire mieux ");
         break;
 }
-
 document.write("<br>&nbsp;</br>");
+
+document.write(" J'UTILISE UNE FOR LOOP. ");     
+document.write("</br>");
 
 var Y;
 for (Y=1;Y<6;Y++){
-    document.write( Y );
-    document.write("");
+    document.write( Y+"<br/>" );
+    // document.write("");
 }
