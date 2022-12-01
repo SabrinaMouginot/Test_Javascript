@@ -1,20 +1,21 @@
+document.write("<br></br>");
+
 document.write("Bonjour d'un autre fichier JS!");
 
 //Ceci est un commentaire sur une seule ligne
 /*C'est un commentaire
 sur plusieurs lignes*/
+document.write("</br>");
 
 var X = 5;                                                                   // X
 document.write(X);
 
-// comment faire le retour à la ligne?
-// var Y = "\r";
-// document.write(Y);
-// var Y = "\n";
-// document.write(Y);
-//A mon avis , le retour à la ligne peut se faire avec \n. Mais je n'ai pas trouvé où je devais le glisser pour que ça fonctionne.
+document.write("<br>&nbsp;</br>");
 
-document.write(" J'UTILISE IF ELSE.");                                       // X
+document.write(" J'UTILISE IF ELSE.");
+
+document.write("</br>");
+
 var num = 55;
 var floating_point_num = 5.5;
 var string = 'Hey there!';
@@ -28,7 +29,12 @@ if(num <= 6){
     document.write(" num n'existe pas.");
 }
 
-document.write(" J'UTILISE SWITCH CASE. ");                                  // X
+document.write("<br>&nbsp;</br>");
+
+document.write(" J'UTILISE SWITCH CASE. ");     
+
+document.write("</br>");
+
 switch(num){
     case 70:
         document.write(" excellent! ");
@@ -47,6 +53,7 @@ switch(num){
         break;
 }
 
+document.write("<br>&nbsp;</br>");
 
 var Y;
 for (Y=1;Y<6;Y++){
