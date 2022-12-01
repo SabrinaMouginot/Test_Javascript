@@ -46,3 +46,10 @@ switch(num){
         document.write(" Faire mieux ");
         break;
 }
+
+
+var Y;
+for (Y=1;Y<6;Y++){
+    document.write( Y );
+    document.write("");
+}
