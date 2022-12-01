@@ -6,6 +6,8 @@ sur plusieurs lignes*/
 
 var X = 5;                                                                   // X
 document.write(X);
+
+// comment faire le retour à la ligne?
 // var Y = "\r";
 // document.write(Y);
 // var Y = "\n";
@@ -29,18 +31,18 @@ if(num <= 6){
 document.write(" J'UTILISE SWITCH CASE. ");                                  // X
 switch(num){
     case 70:
-        document.write("excellent!");
+        document.write(" excellent! ");
         break;
     case 55:
-        document.write("génial");
+        document.write(" génial ");
         break;
     case 45:
-        document.write("Bien");
+        document.write(" Bien ");
         break;
     case 30:
-        document.write("D'accord");
+        document.write(" D'accord ");
         break;
     default:
-        document.write("Faire mieux");
+        document.write(" Faire mieux ");
         break;
 }
