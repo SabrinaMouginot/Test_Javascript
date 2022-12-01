@@ -1,12 +1,15 @@
+document.write("<div class=div1><button>Click here</button></br>Bonjour d'un autre fichier JS!<br></br>LA BASE</br></div>");
+
+document.write("<br>&nbsp;</br>");
 document.write("<button>Click here</button>");
-document.write("<br></br>");
+document.write("</br>");
 document.write("Bonjour d'un autre fichier JS!");
 //Ceci est un commentaire sur une seule ligne
 /*C'est un commentaire
 sur plusieurs lignes*/
-document.write("</br>");
-document.write("LA BASE");
 document.write("<br></br>");
+document.write("LA BASE");
+document.write("</br>");
 
 var X = 5;                                                                   
 document.write(X);
@@ -59,3 +62,4 @@ for (Y=1;Y<6;Y++){
     document.write( Y+"<br/>" );
     // document.write("");
 }
+
