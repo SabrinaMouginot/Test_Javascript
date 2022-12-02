@@ -1,4 +1,5 @@
-document.write("<div class=div1><button>Click here</button></br>Bonjour d'un autre fichier JS!<br></br></div></br><div class=div2>");
+document.write("<div class=DeuxiemeFichier> </br>2e FICHIER SUR LES DIV</div>");    
+document.write("<div class=div1></br><button>Click here</button></br>Bonjour d'un autre fichier JS!<br></br></div></br><div class=div2>");
 
 document.write("<br>&nbsp;</br>");
 document.write("<button>Click here</button>");

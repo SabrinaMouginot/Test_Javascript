@@ -1,3 +1,4 @@
+document.write("<div class=PremierFichier> </br>1e FICHIER : BASES, CONDITIONS ET BOUCLES</div>");   
 document.write("<div class=div0>");
 document.write("<br>&nbsp;</br>");
 document.write("<button>Click here</button>");
@@ -14,6 +15,7 @@ var X = 5;
 document.write(X);
 document.write("<br>&nbsp;</br>");
 
+//LES CONDITIONS
 document.write(" J'UTILISE IF ELSE.");
 document.write("</br>");
 
@@ -34,6 +36,7 @@ document.write("<br>&nbsp;</br>");
 document.write(" J'UTILISE SWITCH CASE. ");     
 document.write("</br>");
 
+//SWITCH CASE : pour des vérifications conditionnelles à effectuer / remplace une liste de if ... else if ... qui pourrait être longue.
 switch(num){
     case 70:
         document.write(" excellent! ");
@@ -56,10 +59,13 @@ document.write("<br>&nbsp;</br>");
 document.write(" J'UTILISE UNE FOR LOOP. ");     
 document.write("</br>");
 
+//FOR LOOP: pour vérifier une condition sur plusieurs itérations, où le paramètre qui subit le contrôle de condition peut changer sa valeur.
 var Y;
 for (Y=1;Y<6;Y++){
-    document.write( Y+"<br/>" );
-    // document.write("");
+    document.write( Y );
+    if(Y<6){
+        document.write(" C'est OK!<br/>");
+    }
 }
 document.write("</div>");
 document.write("</br>");
