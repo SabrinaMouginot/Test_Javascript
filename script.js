@@ -15,6 +15,11 @@ var X = 5;
 document.write(X);
 document.write("<br>&nbsp;</br>");
 
+document.write("UNE IMAGE");
+document.write("</br>");
+document.write("<div class=image>");
+var img = document.write("<img src='lego.png'>");
+
 // *********************************************************************************************************************
 
 //LES CONDITIONS
