@@ -35,12 +35,14 @@ if(num <= 6){
 }
 document.write("<br>&nbsp;</br>");
 
-document.write(" J'UTILISE SWITCH CASE. ");     
-document.write("</br>");
+
 
 // *********************************************************************************************************************
 
 //SWITCH CASE : pour des vérifications conditionnelles à effectuer / remplace une liste de if ... else if ... qui pourrait être longue.
+document.write(" J'UTILISE SWITCH CASE. ");     
+document.write("</br>");
+
 switch(num){
     case 70:
         document.write(" excellent! ");
@@ -59,13 +61,20 @@ switch(num){
         break;
 }
 document.write("<br>&nbsp;</br>");
+/*La variable num est envoyée à l'instruction switch case comme paramètre conditionnel à vérifier.
+La valeur de cette variable est vérifiée séquentiellement pour trouver des correspondances.
+Ici, une correspondance est trouvé au cas 55.
+Par conséquent, le code à l'intérieur de ce bloc est exécuté.
+L'instruction "break" est utilisée pour quitter un cas de commutateur une fois qu'une correspondance a été trouvéeet le code au-dessus d'elle a été exécuté.
+En son absence, le programme ira aux cas suivants et continuera à rechercher.*/
 
-document.write(" J'UTILISE UNE FOR LOOP. ");     
-document.write("</br>");
 
 // *********************************************************************************************************************
 
 //FOR LOOP: pour vérifier une condition sur plusieurs itérations, où le paramètre qui subit le contrôle de condition peut changer sa valeur.
+document.write(" J'UTILISE UNE FOR LOOP. ");     
+document.write("</br>");
+
 var Y;
 for (Y=1;Y<6;Y++){
     document.write( Y );
@@ -74,20 +83,45 @@ for (Y=1;Y<6;Y++){
     }
 }
 
-
 document.write("<br>&nbsp;</br>");
-
-document.write(" J'UTILISE UNE WHILE LOOP. ");     
-document.write("</br>");
+/*déclaration 1 : La variable i est initialisée à une valeur de 0.
+déclaration 2 : Il s'agit de la condition de vérification qui vérifiera si la valeur de 6 est inférieure à 6 à chaque itération.
+déclaration 3 : Cette instruction est utilisée pour modifier la variable i. Il est utilisé pour incrémenter la valeur de i à chaque itération.*/
 
 // *********************************************************************************************************************
 
 //WHILE LOOP : pour vérifier une condition au début du bloc de code et n'exécute le code que si la condition est vraie.
+document.write(" J'UTILISE UNE WHILE LOOP. ");     
+document.write("</br>");
+
 var Z=1;
 while(Z<6){
     document.write(Z);
-    i++;
+    if(Z<6){
+        document.write(" C'est OK!<br/>");
+    }
+    Z++;
 }
+
+document.write("<br>&nbsp;</br>");
+/* La condition de la boucle while verifie si la variable Z est inférieure à 6.
+Si cette condition est vraie , le bloc de code à l'intérieur de la boucle while est éxecuté.
+Ici on essaye d'incrémenter la variable Z d'une unité à chaque itération.
+Lorsque la valeur est supérieure à 6, c'est-à-dire 7, la vérification conditionnelle while renvoie false et la boucle est fermée. */
+
+// *********************************************************************************************************************
+
+//DO ... WHILE : pour
+document.write(" J'UTILISE DO ... WHILES. ");     
+document.write("</br>");
+
+var DW=1;
+do{
+    document.write( DW );
+    document.write("</br>");
+    DW++;
+}while(DW<5);
+
 
 document.write("</div>");
 document.write("</br>");
