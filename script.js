@@ -117,8 +117,11 @@ Lorsque la valeur est supérieure à 6, c'est-à-dire 7, la vérification condit
 
 // *********************************************************************************************************************
 
-//DO ... WHILE : pour
-document.write(" J'UTILISE DO ... WHILES. ");     
+/* DO ... WHILE : (comme la while loop) pour vérifier une condition et n'exécute le code que si la condition est vraie. 
+Mais la vérification conditionnelle est effectuée à la fin du bloc de code. 
+En tant que tel, la première itération du bloc de code est exécutée indépendamment du fait que le contrôle conditionnel renvoie vrai ou faux.
+Ici, le bloc de code est toujours exécuté au moins une fois.*/
+document.write(" J'UTILISE DO ... WHILE. ");     
 document.write("</br>");
 
 var DW=1;
@@ -127,7 +130,11 @@ do{
     document.write("</br>");
     DW++;
 }while(DW<5);
-
+/* La condition n'est vérifiée qu'à la fin du bloc de code.
+Tant que tel, par rapport à la boucle while, le programme passe par une itération supplémentaire.
+Le dernier nombre imprimé dans la boucle while serait 5, 
+mais ici, puisque la vérification conditionnelle est effectuée à la fin fin du bloc de code,
+et une itération supplémentaire du code est également effectuée, grâce à laquelle 6 est également imprimé.*/
 
 document.write("</div>");
 document.write("</br>");
