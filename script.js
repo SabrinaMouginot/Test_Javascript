@@ -19,6 +19,7 @@ document.write("UNE IMAGE");
 document.write("</br>");
 document.write("<div class=image>");
 var img = document.write("<img src='lego.png'>");
+document.write("<br>&nbsp;</br>");
 
 // *********************************************************************************************************************
 
