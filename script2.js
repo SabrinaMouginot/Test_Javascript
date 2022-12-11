@@ -1,3 +1,5 @@
+document.write("<div class=colonne2>");    
+
 document.write("<div class=DeuxiemeFichier> </br>2e FICHIER SUR LES DIV</div>");    
 document.write("<div class=div1></br><button>Click here</button></br>Bonjour d'un autre fichier JS!<br></br></div></br><div class=div2>");
 
@@ -190,3 +192,4 @@ for (Y=1;Y<6;Y++){
 }
 
 document.write("</div>")
+document.write("</div");    // fermeture de la div colonne2
