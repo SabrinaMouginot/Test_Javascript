@@ -1,3 +1,4 @@
+document.write("<div class=colonne1>");
 document.write("<div class=PremierFichier> </br>1e FICHIER : BASES, CONDITIONS ET BOUCLES</div>");   
 document.write("<div class=div0>");
 document.write("<br>&nbsp;</br>");
@@ -138,7 +139,9 @@ et une itération supplémentaire du code est également effectuée, grâce à l
 
 // *********************************************************************************************************************
 
-document.write("</div>");
+
+document.write("</div>"); // fin div0
+document.write("</div>"); // fin colonne1
 document.write("</br>");
 
 

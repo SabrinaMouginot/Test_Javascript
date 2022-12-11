@@ -32,5 +32,8 @@ img{
 .colonne2{
     float: right;
     margin-top: -1090px;
-    margin-right: 300px;
+    margin-left: 850px;
+}
+.colonne1{
+    float: left;
 }
