@@ -136,6 +136,8 @@ Le dernier nombre imprimé dans la boucle while serait 5,
 mais ici, puisque la vérification conditionnelle est effectuée à la fin fin du bloc de code,
 et une itération supplémentaire du code est également effectuée, grâce à laquelle 6 est également imprimé.*/
 
+// *********************************************************************************************************************
+
 document.write("</div>");
 document.write("</br>");
 

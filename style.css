@@ -22,7 +22,7 @@ img{
 .div4{
     color: darkgreen;
 }
-.DeuxiemeFichier{
+.DeuxiemeFichier, .PremierFichier{
     color: #000;
     font-weight: 900;
     text-decoration: underline;
@@ -31,5 +31,6 @@ img{
 }
 .colonne2{
     float: right;
-    margin-top: -1100px;
+    margin-top: -1090px;
+    margin-right: 300px;
 }
