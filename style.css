@@ -8,10 +8,19 @@ body{
 .div0{
     color: #000;
 }
-img{
+.image img{
     height: 100px;
     width: 300px;
 }
+/* .image1 img{
+
+}
+.image2 img{
+
+}
+.image3 img{
+
+} */
 .div1{
     color: rgb(184, 3, 133);
 }

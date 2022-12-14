@@ -44,6 +44,9 @@ document.write("<br>&nbsp;</br>");
 document.write(" ALERTES");
 document.write("</br>");
 alert("Ceci est une alerte!");
+document.write("<div class=image1>");
+var img = document.write("<img src='alerte.png'>");
+document.write("<br>&nbsp;</br>");
 /**Une chaîne ou une variable de chaîne comme paramètre s'affiche comme message dans la boite d'alerte. */
 
 /******************************************************************************************************************************** */
@@ -53,10 +56,21 @@ document.write("<br>&nbsp;</br>");
 document.write(" INSTRUCTIONS");
 document.write("</br>");
 var name = prompt("Entrez votre nom");
+document.write("<div class=image2>");
+var img = document.write("<img src='inviteDeSaisie.png'>");
+document.write("<br>&nbsp;</br>");
 
+/******************************************************************************************************************************** */
 
 document.write("<br>&nbsp;</br>");
 document.write(" BOITE DE CONFIRMATION");
 document.write("</br>");
+var option = confirm("Est-ce que tu t'appelles Harry?")
+if(option == True){
+    document.write("salut harry");
+}
+document.write("<div class=image3>");
+var img = document.write("<img src='confirmation.png'>");
+document.write("<br>&nbsp;</br>");
 
 document.write("</div>"); // fin div0
