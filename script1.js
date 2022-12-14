@@ -42,7 +42,8 @@ document.write(W);
 document.write("<br>&nbsp;</br>");
 document.write(" ALERTES");
 document.write("</br>");
-
+alert("Ceci est une alerte!");
+/******************************************************************************************************************************** */
 
 document.write("<br>&nbsp;</br>");
 document.write(" INSTRUCTIONS");
