@@ -38,11 +38,12 @@ function ajout (c,d){
 var W = ajout(1,3);
 document.write(W);
 /******************************************************************************************************************************** */
-
+/**L'alerte permet de créer une noite de message pour informer l'utilisateur d'un évènement. */
 document.write("<br>&nbsp;</br>");
 document.write(" ALERTES");
 document.write("</br>");
 alert("Ceci est une alerte!");
+/**Une chaîne ou une variable de chaîne comme paramètre s'affiche comme message dans la boite d'alerte. */
 /******************************************************************************************************************************** */
 
 document.write("<br>&nbsp;</br>");
