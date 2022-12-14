@@ -22,7 +22,7 @@ img{
 .div4{
     color: darkgreen;
 }
-.DeuxiemeFichier, .PremierFichier{
+.DeuxiemeFichier, .PremierFichier, .TroisiemeFichier{
     color: #000;
     font-weight: 900;
     text-decoration: underline;

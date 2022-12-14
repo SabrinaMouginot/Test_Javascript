@@ -138,9 +138,7 @@ mais ici, puisque la vérification conditionnelle est effectuée à la fin fin d
 et une itération supplémentaire du code est également effectuée, grâce à laquelle 6 est également imprimé.*/
 
 // *********************************************************************************************************************
-document.write("<div class=TroisiemeFichier> </br> 3e FICHIER : LES FONCTIONS </div>");    
 
-document.write("<br>&nbsp;</br>");
 
 
 document.write("</div>"); // fin div0
