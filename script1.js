@@ -9,18 +9,48 @@ function imprimer(){
     document.write("Bonjour!")
 }
 imprimer()
+/******************************************************************************************************************************** */
 
 document.write("<br>&nbsp;</br>");
 document.write(" LES PARAMETRES DE FONCTION");
 document.write("</br>");
+document.write("a=2 et b=6");
+document.write("</br>");
+document.write("a+b=");
 
 function ajouter(a,b){
     document.write(a+b)
 }
 ajouter(2,6)
+/******************************************************************************************************************************** */
 
 document.write("<br>&nbsp;</br>");
 document.write(" DECLARATION DE RETOUR");
+document.write("</br>");
+document.write("c=1 et d=3");
+document.write("</br>");
+document.write("c+d=");
+
+function ajout (c,d){
+    return c+d;
+}
+
+var W = ajout(1,3);
+document.write(W);
+/******************************************************************************************************************************** */
+
+document.write("<br>&nbsp;</br>");
+document.write(" ALERTES");
+document.write("</br>");
+
+
+document.write("<br>&nbsp;</br>");
+document.write(" INSTRUCTIONS");
+document.write("</br>");
+
+
+document.write("<br>&nbsp;</br>");
+document.write(" BOITE DE CONFIRMATION");
 document.write("</br>");
 
 document.write("</div>"); // fin div0
