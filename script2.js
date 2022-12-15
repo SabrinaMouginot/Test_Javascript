@@ -23,13 +23,13 @@ document.write("<br>&nbsp;</br>");
 //     Marque: "Ford", Modele:"Mustang", Type:"Coupe", TailleMotor: 5.2
 // }
 
-// var voiture2 = new car("Chevy","Camaro","Convertible", 6.2);
+var voiture2 = new voiture("Chevy","Camaro","Convertible", 6.2);
 // // voiture2.Marque = "Chevy";
 // // voiture2.Modele = "Camaro";
 // // voiture2.Type = "Convertible";
 // // voiture2.TailleMotor = 6.2;
-// document.write(voiture2.Marque);
-// document.write(voiture2.TailleMotor);
+document.write(voiture2.Marque);
+document.write(voiture2.TailleMotor);
 
 
 // var voiture = {
