@@ -9,7 +9,12 @@ var voiture = {
 var V = voiture.Marque;
 var V = voiture['Marque'];
 
+var U = voiture.Modele;
+var T = voiture.TailleMotor;
+
 document.write(V)
+document.write("</br>")
+document.write(V +" "+U+" " + T)
 document.write("<br>&nbsp;</br>");
 
 // /**Méthodes d'objet: Les méthodes d'objet sont accessibles comme suit. */
