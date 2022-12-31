@@ -11,14 +11,14 @@ var V = voiture.Marque;
 
 var U = voiture.Modele;
 var T = voiture.TailleMotor;
-var e = voiture;
+// var e = voiture;
 
 document.write(V)
 document.write("</br>")
 document.write(V +" "+U+" " + T)
 document.write("<br>&nbsp;</br>");
-// document.write(voiture);
-document.write(e);
+document.write(voiture);
+// document.write(e);
 
 // /**Méthodes d'objet: Les méthodes d'objet sont accessibles comme suit. */
 // nomObjet.nomMethode();
@@ -32,5 +32,4 @@ document.write(e);
 // }
 
 var voiture2 = new voiture("Chevy","Camaro","Convertible", 6.2);
-var New = voiture2;
-document.write(New);
+document.write(voiture2.Marque);
