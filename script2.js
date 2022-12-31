@@ -17,7 +17,7 @@ document.write(V)
 document.write("</br>")
 document.write(V +" "+U+" " + T)
 document.write("<br>&nbsp;</br>");
-document.write(voiture);
+document.write(voiture.Marque + voiture.Modele, voiture.Type, voiture.TailleMotor);
 // document.write(e);
 
 // /**Méthodes d'objet: Les méthodes d'objet sont accessibles comme suit. */
