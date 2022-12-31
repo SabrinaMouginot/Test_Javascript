@@ -7,7 +7,7 @@ var voiture = {
 };
 
 var V = voiture.Marque;
-var V = voiture['Marque'];
+// var V = voiture['Marque'];
 
 var U = voiture.Modele;
 var T = voiture.TailleMotor;
@@ -29,25 +29,5 @@ document.write("<br>&nbsp;</br>");
 // }
 
 var voiture2 = new voiture("Chevy","Camaro","Convertible", 6.2);
-// // voiture2.Marque = "Chevy";
-// // voiture2.Modele = "Camaro";
-// // voiture2.Type = "Convertible";
-// // voiture2.TailleMotor = 6.2;
-document.write(voiture2.Marque);
-document.write(voiture2.TailleMotor);
-
-
-// var voiture = {
-//     Marque: 'Ford', 
-//     Modele:'Mustang', 
-//     Type:'Coupe', 
-//     TailleMotor: 5.2
-// };
-
-// var voiture = new voiture();
-// voiture2.Marque = 'Chevy';
-// voiture2.Modele = 'Camaro';
-// voiture2.Type = 'Convertible';
-// voiture2.TailleMotor = 6.2;
-// document.write(voiture2.Marque);
-// document.write(voiture2.TailleMotor);
+var New = voiture2.Modele;
+document.write(New);
